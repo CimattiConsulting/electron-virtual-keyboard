@@ -499,7 +499,7 @@
      * @param {DomElement} el 
      */
     function testSupportedElements(i, el) {
-        return $(el).is('input:text') || $(el).is('input:password') || $(el).is('textarea');
+        return $(el).is('input:text') || $(el).is('input:password') || $(el).is('textarea') || $(el).is('input[type=email]');
     }
 
     /**
